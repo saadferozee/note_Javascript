@@ -171,7 +171,7 @@ const numbers = [1, 2, 3, 4];
 
 #### *🧱 Objects*
 
-###### *Declaration:*
+##### *Declaration:*
 ```javascript
 const person = {
   name: "Alice",
@@ -180,7 +180,7 @@ const person = {
 };
 ```
 
-###### *Accessing Properties:*
+##### *Accessing Properties:*
 ```javascript
 console.log(person.name);       // Dot notation
 console.log(person["age"]);     // Bracket notation
@@ -188,7 +188,7 @@ console.log(person["age"]);     // Bracket notation
 *Output :*
 <br>`Alice`<br>`25`
 
-###### *Get Key/Property of an Object*
+##### *Get Key/Property of an Object*
 ```javascript
 const getKeys = object.keys(person);
 console.log(getKeys);
@@ -196,7 +196,15 @@ console.log(getKeys);
 *Output :*
 `[ 'name', 'age' ]`
 
-###### *Adding/Modifying Properties:*
+##### *Get Values of an Object*
+```javascript
+const getValues = object.values(person);
+console.log(getValues);
+```
+*Output :*
+`'Alice', 25`
+
+##### *Adding/Modifying Properties:*
 ```javascript
 //method 1
 person.city = "New York";
