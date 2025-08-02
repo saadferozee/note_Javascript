@@ -1,10 +1,10 @@
 
 
 ## *📘 JavaScript Beginner Notes (Up to Objects & Loops)*
-
+#### *Author : Saad Ferozee*
 ---
 
-*🌐 What is JavaScript?*
+#### *🌐 What is JavaScript?*
 - JavaScript is a *high-level*, *interpreted*, and *dynamic* programming language.
 - It is mainly used for *web development* to make websites interactive.
 - Runs in the browser using a *JavaScript Engine* (e.g., Chrome uses *V8 Engine*).
@@ -14,7 +14,9 @@
 #### *📦 Variables*
 
 *Declaration Types:*
-KeywordMutabilityScopeNotes`var`MutableFunctionOld way, avoid using`let`MutableBlockRecommended for changing values`const`ImmutableBlockRecommended for fixed values---
+KeywordMutabilityScopeNotes`var`MutableFunctionOld way, avoid using`let`MutableBlockRecommended for changing values`const`ImmutableBlockRecommended for fixed values
+
+---
 
 #### *🧮 Data Types*
 
@@ -184,7 +186,7 @@ console.log(person.name);       // Dot notation
 console.log(person["age"]);     // Bracket notation
 ```
 *Output :*
-`Alice`<br>`25`
+<br>`Alice`<br>`25`
 
 ###### *Get Key/Property of an Object*
 ```javascript
